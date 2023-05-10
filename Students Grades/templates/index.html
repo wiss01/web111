@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Software</title>
+</head>
+<body>
+    <h1>Python Software</h1>
+    <button onclick="runSoftware()">Run Software</button>
+    <div id="result"></div>
+
+    <script>
+        async function runSoftware() {
+            const response = await fetch('/run_software', { method: 'POST' });
+            const data = await response.json();
+            document.getElementById('result').innerText = data.result;
+        }
+    </script>
+</body>
+</html>

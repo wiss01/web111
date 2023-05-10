@@ -1,0 +1,8 @@
+email,password,user_type,allowed_path
+
+a,a,admin,
+
+user1@example.com,password1,user,Node 1: License
+
+user2@example.com,password2,user
+

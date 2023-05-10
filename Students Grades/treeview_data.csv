@@ -1,0 +1,16 @@
+parent,text
+,Root Node
+Root Node,Node 1: License
+Node 1: License,Sub-node 1: LCS
+Sub-node 1: LCS,-1 LCS
+Sub-node 1: LCS,-2 LCS:
+-2 LCS:,  -GLSI
+-2 LCS:,  -MI
+Sub-node 1: LCS,-3 LCS:
+-3 LCS:,  -GLSI
+-3 LCS:,  -MI
+Node 1: License,Sub-node 2: LCE
+Node 1: License,Sub-node 2: LBC
+Root Node,Node 2: Master
+Node 2: Master,Sub-node 3:
+Node 2: Master,Sub-node 4:
